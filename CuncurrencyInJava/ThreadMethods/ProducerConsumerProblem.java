@@ -30,11 +30,6 @@ public class ProducerConsumerProblem {
                     System.out.println("produce=" + i);
                     list.add(i);
                     list.notifyAll();
-                    try {
-                        Thread.sleep(500);
-                    } catch (InterruptedException ex) {
-                        ex.printStackTrace();
-                    }
                 }
             }
         }
@@ -62,11 +57,6 @@ public class ProducerConsumerProblem {
                     int k = list.remove(0);
                     System.out.println("consume=" + k);
                     list.notifyAll();
-                    try {
-                        Thread.sleep(500);
-                    } catch (InterruptedException ex) {
-                        ex.printStackTrace();
-                    }
                 }
             }
         }
