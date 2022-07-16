@@ -74,6 +74,7 @@ public class ProducerConsumerProblem {
 
 
 /*
+
 Output:
 produce=0
 producer is waiting
