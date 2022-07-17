@@ -1,5 +1,9 @@
 package ThreadMethods;
 
+/*
+	Thread Join Example
+*/
+
 public class ThreadJoin extends Thread{
     @Override
     public void run()
