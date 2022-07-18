@@ -1,5 +1,8 @@
 package ThreadMethods;
 
+/*
+	Thread Yeald example
+*/
 public class ThreadYield {
     public static void main(String[] args) {
         Runnable r = () -> {
